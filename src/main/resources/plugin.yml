@@ -1,0 +1,4 @@
+name: CaptureTheFlag
+version: 0.1.0
+description: A custom minigame based on the basic principles of Capture The Flag. For more information, view http://docs.mo-mar.de/capture-the-flag/
+main: de.momar.bukkit.ctf.CaptureTheFlag

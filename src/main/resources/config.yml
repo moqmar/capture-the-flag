@@ -1,0 +1,21 @@
+mongo:
+    connection: ""
+test:
+  teams: 2 # Team count
+
+  minPlayersPerTeam: 4
+  maxPlayersPerTeam: 6
+  minWaitTime: 30 # Wait at least 30 seconds, even if the maximum player count joined after 10 seconds (leave time for e.g. shopping).
+  maxWaitTime: 60 # After the minimum player count joined, still wait 60 seconds for more players until start.
+
+  waitingRoom: [125, 75, -125]
+  shops: # At those locations, a villager will spawn and sell kits and trails.
+   - [150, 80, -150]
+  spawns:
+    1: # Spawns for team 1. Whenever someone dies, a random spawn of those is selected.
+     - [11, 11, 11]
+     - [22, 22, 22]
+    2: [55, 55, 55] # Team 2 has only one spawn point in this example.
+  flags:
+    1: [11, 11, 25]
+    2: [15, 12, 12]
