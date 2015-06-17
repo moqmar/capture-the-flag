@@ -151,7 +151,7 @@ public class GameParameters {
 		List<Double> list = new ArrayList<Double>();
 		for (int i = 0; i < 3; i++)
 			list.add(Double.parseDouble(config.get(i).toString()));
-		return new Location(world, list.get(0), list.get(1), list.get(2));
+		return new Location(world, list.get(0), list.get(1), list.get(2)).add(0.5, 0, 0.5);
 	}
 	
 	public String toString() {
