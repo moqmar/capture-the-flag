@@ -1,0 +1,6 @@
+flagCollected: '%1 collected the flag of %2!'
+flagBroughtHome: '%1 brought the flag of %2 home!'
+playerJoined: '%1 joined the game.'
+playerLeftFlagDropped: '%1 left the game and dropped the flag of %2 at %3 %4 %5'
+playerLeft: '%1 left the game.'
+scoreboardTitle: 'Flags collected'

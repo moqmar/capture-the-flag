@@ -1,0 +1,12 @@
+{
+    "name": "ctf-translation",
+    "author": "Moritz Marquardt",
+    "license": "MIT",
+    "version": "0.0.1",
+    "description": "Looks through Java files for translated snippets and adds them to a translation file in the YAML format.",
+    "repository": "momar/capture-the-flag",
+    "main": "generate_translation_file.js",
+    "dependencies": {
+        "recursive-readdir": ">=1.2.1"
+    }
+}

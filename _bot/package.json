@@ -1,0 +1,14 @@
+{
+    "name": "ctf-bot",
+    "author": "Moritz Marquardt",
+    "license": "MIT",
+    "version": "0.0.1",
+    "description": "A Minecraft bot listening to a few commands for testing the plugin.",
+    "repository": "momar/capture-the-flag",
+    "main": "bot.js",
+    "dependencies": {
+        "mineflayer": ">=1.2.1",
+        "mineflayer-navigate": ">=0.0.9",
+        "vec3": ">=0.1.3"
+    }
+}
